@@ -204,7 +204,7 @@ function App() {
             onClick={() => scrollToSection('collections')}
             className="inline-flex items-center bg-[#16756f] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#026465] transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
-            Shop Now
+            Explore Now
             <ChevronRight className="w-5 h-5 ml-2" />
           </button>
         </div>
@@ -371,7 +371,7 @@ function App() {
               Each piece is a testament to our commitment to excellence and artisanship.
             </p>
             <p className="text-white/60 text-sm">
-              © 2024 Naura Jewellery. All rights reserved.
+              © 2025 Naura. All rights reserved.
             </p>
             {/* Social Icons */}
             <div className="flex justify-center space-x-6">
