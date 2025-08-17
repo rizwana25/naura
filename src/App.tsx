@@ -90,9 +90,13 @@ function App() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center">
-              <Sparkles className="w-8 h-8 text-[#026465] mr-2" />
+              <img 
+                src="https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=200" 
+                alt="Naura Logo" 
+                className="w-10 h-10 rounded-full object-cover mr-2"
+              />
               <span className="text-2xl font-bold text-[#026465] font-['Playfair_Display']">
-                Timeless
+                Naura
               </span>
             </div>
 
@@ -184,7 +188,7 @@ function App() {
         
         <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] mb-6 leading-tight">
-            Timeless Jewellery,
+            Naura Jewellery,
             <br />
             <span className="text-white/90">Crafted for You</span>
           </h1>
@@ -208,14 +212,15 @@ function App() {
         </div>
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-[#026465] font-['Playfair_Display'] mb-8">
-            Where Elegance Meets Craftsmanship
+            Exquisite Jewelry for Every Occasion
           </h2>
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-light">
-            At Timeless, we believe that jewelry is more than just an accessory—it's a reflection of your unique story, 
-            your cherished memories, and your personal style. Our master artisans combine traditional techniques with 
-            contemporary design to create pieces that transcend trends and celebrate the beauty of individual expression. 
-            Each creation in our collection is carefully crafted using the finest materials, ensuring that your jewelry 
-            will remain as stunning as the day you first wore it.
+            Naura offers exquisite jewelry solutions for every occasion, catering to both retail and rental needs. 
+            Our retail collection features timeless, handcrafted pieces designed to adorn and empower. Our rental 
+            service provides access to stunning jewelry for special events, allowing you to shine without the commitment.
+            <br /><br />
+            Whether you're looking to own a unique piece or rent for a special occasion, Naura's jewelry is designed 
+            to make you feel confident, beautiful, and one-of-a-kind.
           </p>
         </div>
       </section>
@@ -352,62 +357,31 @@ function App() {
       {/* Footer */}
       <footer className="bg-[#026465] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Left Column */}
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <Sparkles className="w-8 h-8 text-white mr-2" />
-                <span className="text-2xl font-bold font-['Playfair_Display']">Timeless</span>
-              </div>
-              <p className="text-white/80 max-w-md">
-                Creating beautiful, handcrafted jewelry that tells your unique story. 
-                Each piece is a testament to our commitment to excellence and artisanship.
-              </p>
-              <p className="text-white/60 text-sm">
-                © 2024 Timeless Jewellery. All rights reserved.
-              </p>
+          <div className="flex flex-col items-center text-center space-y-6">
+            <div className="flex items-center">
+              <img 
+                src="https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=200" 
+                alt="Naura Logo" 
+                className="w-8 h-8 rounded-full object-cover mr-2"
+              />
+              <span className="text-2xl font-bold font-['Playfair_Display']">Naura</span>
             </div>
-
-            {/* Right Column */}
-            <div className="space-y-4">
-              <h3 className="text-lg font-semibold font-['Playfair_Display'] mb-4">Quick Links</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <button 
-                  onClick={() => scrollToSection('home')}
-                  className="text-left text-white/80 hover:text-white transition-colors duration-200"
-                >
-                  Home
-                </button>
-                <button 
-                  onClick={() => scrollToSection('collections')}
-                  className="text-left text-white/80 hover:text-white transition-colors duration-200"
-                >
-                  Collections
-                </button>
-                <button 
-                  onClick={() => scrollToSection('why-choose-us')}
-                  className="text-left text-white/80 hover:text-white transition-colors duration-200"
-                >
-                  Why Choose Us
-                </button>
-                <button 
-                  onClick={() => scrollToSection('contact')}
-                  className="text-left text-white/80 hover:text-white transition-colors duration-200"
-                >
-                  Contact
-                </button>
-              </div>
+            <p className="text-white/80 max-w-md">
+              Creating beautiful, handcrafted jewelry that tells your unique story. 
+              Each piece is a testament to our commitment to excellence and artisanship.
+            </p>
+            <p className="text-white/60 text-sm">
+              © 2024 Naura Jewellery. All rights reserved.
+            </p>
+            {/* Social Icons */}
+            <div className="flex justify-center space-x-6">
+              <a href="#" className="text-white/60 hover:text-white hover:scale-110 transition-all duration-200">
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a href="#" className="text-white/60 hover:text-white hover:scale-110 transition-all duration-200">
+                <MessageCircle className="w-6 h-6" />
+              </a>
             </div>
-          </div>
-
-          {/* Social Icons */}
-          <div className="border-t border-white/20 mt-8 pt-8 flex justify-center space-x-6">
-            <a href="#" className="text-white/60 hover:text-white hover:scale-110 transition-all duration-200">
-              <Instagram className="w-6 h-6" />
-            </a>
-            <a href="#" className="text-white/60 hover:text-white hover:scale-110 transition-all duration-200">
-              <MessageCircle className="w-6 h-6" />
-            </a>
           </div>
         </div>
       </footer>
