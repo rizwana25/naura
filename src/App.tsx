@@ -177,14 +177,24 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: "url('https://images.pexels.com/photos/1721558/pexels-photo-1721558.jpeg?auto=compress&cs=tinysrgb&w=1600')"
-          }}
+        {/* Video Background */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-[#026465]/70 to-[#16756f]/60"></div>
-        </div>
+          <source src="https://videos.pexels.com/video-files/6964260/6964260-uhd_2560_1440_30fps.mp4" type="video/mp4" />
+          {/* Fallback image if video fails to load */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: "url('https://images.pexels.com/photos/1721558/pexels-photo-1721558.jpeg?auto=compress&cs=tinysrgb&w=1600')"
+            }}
+          ></div>
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#026465]/70 to-[#16756f]/60"></div>
         
         <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] mb-6 leading-tight">
