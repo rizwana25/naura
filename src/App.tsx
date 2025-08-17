@@ -193,7 +193,7 @@ function App() {
         
         <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
         
-          <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl mb-8 mt-18 text-white/90 max-w-2xl mx-auto leading-relaxed">
             Discover designs that tell your story with our exquisite collection of handcrafted jewelry
           </p>
           <button 
