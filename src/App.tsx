@@ -44,7 +44,7 @@ function App() {
     },
     {
       name: 'Bracelets',
-      image: 'https://images.pexels.com/photos/1721558/pexels-photo-1721558.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: 'Graceful bracelets for elegant wrists'
     }
   ];
@@ -90,11 +90,6 @@ function App() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center">
-              <img 
-                src="https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=200" 
-                alt="Naura Logo" 
-                className="w-10 h-10 rounded-full object-cover mr-2"
-              />
               <span className="text-2xl font-bold text-[#026465] font-['Playfair_Display']">
                 Naura
               </span>
@@ -369,11 +364,6 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center text-center space-y-6">
             <div className="flex items-center">
-              <img 
-                src="https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&w=200" 
-                alt="Naura Logo" 
-                className="w-8 h-8 rounded-full object-cover mr-2"
-              />
               <span className="text-2xl font-bold font-['Playfair_Display']">Naura</span>
             </div>
             <p className="text-white/80 max-w-md">
