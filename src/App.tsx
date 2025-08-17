@@ -192,11 +192,7 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#026465]/70 to-[#16756f]/60"></div>
         
         <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] mb-6 leading-tight">
-            Naura Jewellery,
-            <br />
-            <span className="text-white/90">Crafted for You</span>
-          </h1>
+        
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
             Discover designs that tell your story with our exquisite collection of handcrafted jewelry
           </p>
